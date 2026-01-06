@@ -10,16 +10,6 @@
     --outline: .1rem solid rgba(0,0,0.1);
 }
 
-:root
-{   /* initalised variable*/
-    --green: green;       
-    --black: #130f40;
-    --light-color: #666;
-    --box-shadow: 0 .1rem 1rem rgba(0,0,0.1);
-    --border: 2rem solid rgba(0,0,0.1);
-    --outline: .1rem solid rgba(0,0,0.1);
-}
-
 * 
 {
     font-family: 'Poppins', sans-serif;
@@ -82,4 +72,30 @@ body
 .header .navbar a:hover
 {
     color: var(--green);
+}
+
+.header .icons div
+{
+ 
+   height: 4.5rem;
+   width: 4.5rem;
+   line-height: 4.5rem;
+   border-radius: .5rem;
+   background: #eee;
+   color: var(--black);
+   font-size: 2rem;
+   margin-right: .3rem;
+   text-align: center;
+   cursor: pointer;
+}
+
+.header .icons div:hover
+{
+    background: var(--green);
+    color: white;
+}
+
+#menu-btn
+{
+    display: none;
 }
